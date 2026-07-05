@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="{{ '/assets/images/slop_about.png' | relative_url }}" alt="Простите за слоп..." style="max-width: 500px; width: 100%;">
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+~~Простите за слоп...~~
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Мне всегда хотелось иметь свой сайт, и вот наконец-то мечта сбылась.
 
+Здесь буду просто делится своим мнением на все, что попадется под руку.
 
-[jekyll-organization]: https://github.com/jekyll
+Сайт написан при помощи: 
+[jekyll](https://jekyllrb.com/) 
+/ [minima](https://github.com/jekyll/minima)
