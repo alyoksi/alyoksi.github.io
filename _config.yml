@@ -67,4 +67,6 @@ footer: 'me in <a href="https://t.me/Alyoksi">telegram</a>'
 disable_google_fonts: false
 
 
+# markdown: kramdown
+# mathjax: true
 
