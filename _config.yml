@@ -29,8 +29,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alyoksi
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-console
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
 
 # Exclude from processing.
@@ -52,3 +54,17 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - index.md
+  - muse.md
+  - about.md
+
+style: dark # dark (default), light, hacker, or nord
+listen_for_clients_preferred_style: true # false (default) or true
+
+footer: 'me in <a href="https://t.me/Alyoksi">telegram</a>'
+disable_google_fonts: false
+
+
+
