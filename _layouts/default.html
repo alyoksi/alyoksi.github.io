@@ -7,6 +7,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {%- include head.html -%}
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <script>
+  (function () {
+      var saved = localStorage.getItem('site-theme');
+      if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+  </script>
 
   <body>
     <div class="container">

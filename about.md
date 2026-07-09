@@ -1,22 +1,15 @@
 ---
 layout: page
 title: /about
-permalink: /about/
+permalink: /
 ---
 
 # $ cat /home/alyoksi/about
 
 ## What is it?
-> *"This blog is gonna be an outlet for me. I have so many thoughts and 
-opinions in my head, and there is no one near me with whom I can discuss them... 
-So if you are reading this - feel like you are my close friend :)"*
-- Quote from my first blog on this site
+A hand-selected repository of source materials in mathematics, computer science, and the sciences in general, compiled by a dedicated company of enthusiasts
 	
 
-# Contacts
-- [mail](mailto:alyokssi@yandex.ru)
-- [telegram](https://t.me/Alyoksi)
-
-# Instruments
+# It was built with:
 - SSG: [jekyll](https://jekyllrb.com/)
-- Theme: [console](https://github.com/Plotkine/jekyll-theme-console)
+- Theme: [console](https://github.com/Plotkine/jekyll-theme-console) with minor changes

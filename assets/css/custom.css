@@ -1,0 +1,30 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-switcher {
+  display: flex;
+  align-items: center;
+}
+
+#theme-toggle {
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  padding: 0.25em 0.6em;
+  cursor: pointer;
+  font-size: 1rem;
+  color: inherit;
+}
+
+/* list-indent fix from earlier */
+.page-content ul {
+  padding-left: 1.4em;
+}
+
+.page-content li {
+  margin-bottom: 0.5em;
+  list-style-position: outside;
+}

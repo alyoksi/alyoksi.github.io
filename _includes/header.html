@@ -1,5 +1,5 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
-<header>
+<header class="site-header">
   <div class="menu">
     <ul>
       {%- for path in page_paths -%}
@@ -8,6 +8,22 @@
         <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
         {%- endif -%}
       {%- endfor -%}
+      <li></li>
     </ul>
   </div>
+
+  <div class="theme-switcher">
+    <button id="theme-toggle" aria-label="Toggle light/dark theme">🌓</button>
+  </div>
 </header>
+
+<script>
+  document.getElementById('theme-toggle').addEventListener('click', function () {
+    var dark = document.getElementById('theme-style-dark');
+    var light = document.getElementById('theme-style-light');
+    var switchingToLight = light.disabled;
+    dark.disabled = switchingToLight;
+    light.disabled = !switchingToLight;
+    localStorage.setItem('site-theme', switchingToLight ? 'light' : 'dark');
+  });
+</script>
