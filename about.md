@@ -4,9 +4,19 @@ title: /about
 permalink: /about/
 ---
 
+# $ cat /home/alyoksi/about
 
-Мне всегда хотелось иметь свой сайт, и вот наконец-то мечта сбылась.
+## What is it?
+> *"This blog is gonna be an outlet for me. I have so many thoughts and 
+opinions in my head, and there is no one near me with whom I can discuss them... 
+So if you are reading this - feel like you are my close friend :)"*
+- Quote from my first blog on this site
+	
 
-Здесь буду просто делится своим мнением обо всем, что попадется под руку.
+# Contacts
+- [mail](mailto:alyokssi@yandex.ru)
+- [telegram](https://t.me/Alyoksi)
 
-Сайт написан при помощи: [jekyll](https://jekyllrb.com/) / [console](https://github.com/Plotkine/jekyll-theme-console)
+# Instruments
+- SSG: [jekyll](https://jekyllrb.com/)
+- Theme: [console](https://github.com/Plotkine/jekyll-theme-console)
