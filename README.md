@@ -16,7 +16,7 @@ and **others**, split by level (**newbie** / **advanced**).
 4. Choose **Add resource** and answer the prompts:
    - **Where** — `math`, `cs`, or `others`
    - **Type** — `article` or `video`
-   - **Level** — `newbie` or `advanced`
+   - **Level** — `basic` or `advanced`
    - **Title** — the resource's name
    - **Source link** — the URL
    - **Tags** — comma-separated, e.g. `linear-algebra, intro`
